@@ -10,4 +10,4 @@ RUN pip3.6 install -r requirements.txt
 EXPOSE 8080
 EXPOSE 443
 EXPOSE 80
-CMD [ "python3.6", "./server-tcp.py" ]
+CMD [ "python3.6", "./server-udp.py" ]
